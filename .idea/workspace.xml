@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18412186-9034-422f-ace7-2f018f9ccc12" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kNEkoOkLzILA3wm04xKR1TxjLX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="sgt.KittyKat-Shop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18412186-9034-422f-ace7-2f018f9ccc12" name="Default Changelist" comment="" />
+      <created>1605532794404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605532794404</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="189" y="19" width="848" height="682" key="#Project_Structure" timestamp="1607348709620">
+      <screen x="0" y="0" width="1193" height="720" />
+    </state>
+    <state x="189" y="19" width="848" height="682" key="#Project_Structure/0.0.1193.720@0.0.1193.720" timestamp="1607348709620" />
+    <state x="400" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1607347077572">
+      <screen x="0" y="0" width="1193" height="720" />
+    </state>
+    <state x="400" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1193.720@0.0.1193.720" timestamp="1607347077572" />
+    <state x="359" y="221" width="474" height="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606138783215">
+      <screen x="0" y="0" width="1193" height="720" />
+    </state>
+    <state x="359" y="221" width="474" height="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1193.720@0.0.1193.720" timestamp="1606138783215" />
+    <state x="703" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605534576656">
+      <screen x="0" y="0" width="1193" height="720" />
+    </state>
+    <state x="703" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1193.720@0.0.1193.720" timestamp="1605534576656" />
+    <state x="383" y="116" key="FileChooserDialogImpl" timestamp="1607688951951">
+      <screen x="0" y="0" width="1205" height="720" />
+    </state>
+    <state x="383" y="116" key="FileChooserDialogImpl/0.0.1205.720@0.0.1205.720" timestamp="1607688951951" />
+    <state width="1205" height="136" key="GridCell.Tab.0.bottom" timestamp="1607691700790">
+      <screen x="0" y="0" width="1205" height="720" />
+    </state>
+    <state width="1193" height="191" key="GridCell.Tab.0.bottom/0.0.1193.720@0.0.1193.720" timestamp="1607482843510" />
+    <state width="1205" height="136" key="GridCell.Tab.0.bottom/0.0.1205.720@0.0.1205.720" timestamp="1607691700790" />
+    <state width="1205" height="136" key="GridCell.Tab.0.center" timestamp="1607691700788">
+      <screen x="0" y="0" width="1205" height="720" />
+    </state>
+    <state width="1193" height="191" key="GridCell.Tab.0.center/0.0.1193.720@0.0.1193.720" timestamp="1607482843510" />
+    <state width="1205" height="136" key="GridCell.Tab.0.center/0.0.1205.720@0.0.1205.720" timestamp="1607691700788" />
+    <state width="1205" height="136" key="GridCell.Tab.0.left" timestamp="1607691700788">
+      <screen x="0" y="0" width="1205" height="720" />
+    </state>
+    <state width="1193" height="191" key="GridCell.Tab.0.left/0.0.1193.720@0.0.1193.720" timestamp="1607482843510" />
+    <state width="1205" height="136" key="GridCell.Tab.0.left/0.0.1205.720@0.0.1205.720" timestamp="1607691700788" />
+    <state width="1205" height="136" key="GridCell.Tab.0.right" timestamp="1607691700790">
+      <screen x="0" y="0" width="1205" height="720" />
+    </state>
+    <state width="1193" height="191" key="GridCell.Tab.0.right/0.0.1193.720@0.0.1193.720" timestamp="1607482843510" />
+    <state width="1205" height="136" key="GridCell.Tab.0.right/0.0.1205.720@0.0.1205.720" timestamp="1607691700790" />
+    <state x="264" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1607688052971">
+      <screen x="0" y="0" width="1205" height="720" />
+    </state>
+    <state x="261" y="185" key="com.intellij.ide.util.TipDialog/0.0.1193.720@0.0.1193.720" timestamp="1607342880307" />
+    <state x="264" y="185" key="com.intellij.ide.util.TipDialog/0.0.1205.720@0.0.1205.720" timestamp="1607688052971" />
+    <state x="256" y="161" width="679" height="677" key="run.anything.popup" timestamp="1607689580532">
+      <screen x="0" y="0" width="1205" height="720" />
+    </state>
+    <state x="253" y="161" width="672" height="677" key="run.anything.popup/0.0.1193.720@0.0.1193.720" timestamp="1607349480048" />
+    <state x="256" y="161" width="679" height="677" key="run.anything.popup/0.0.1205.720@0.0.1205.720" timestamp="1607689580532" />
+    <state x="259" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1607349396375">
+      <screen x="0" y="0" width="1193" height="720" />
+    </state>
+    <state x="259" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1193.720@0.0.1193.720" timestamp="1607349396375" />
+  </component>
+</project>
