@@ -1,5 +1,6 @@
 package database.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.j256.ormlite.field.DataType;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
@@ -27,7 +28,7 @@ public class Employee extends User {
     private String phoneNumber;
     @DatabaseField
     private Department department;
-    @DatabaseField(dataType = DataType.SERIALIZABLE)
+    @DatabaseField(dataType = DataType.SERIALIZABLE)@JsonIgnore
     private LocalDate tokenExpireTime;
 
     public Employee() {
@@ -123,7 +124,7 @@ public class Employee extends User {
         if (updated.name != null && !updated.name.equals(this.name)) {
             this.name = updated.name;
         }
-        if (updated.login != login && !updated.login.equals(this.login)) {
+        if (updated.login != null && !updated.login.equals(this.login)) {
             this.login = updated.login;
         }
         if (updated.surname != null && !updated.surname.equals(this.surname)) {

@@ -50,12 +50,14 @@
             <artifactId>libphonenumber</artifactId>
             <version>8.12.13</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-core -->
+        <!-- https://mvnrepository.com/artifact/regexp/regexp -->
+        <!-- https://mvnrepository.com/artifact/com.googlecode.libphonenumber/libphonenumber -->
         <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-core</artifactId>
-            <version>1.7.0</version>
+            <groupId>com.googlecode.libphonenumber</groupId>
+            <artifactId>libphonenumber</artifactId>
+            <version>8.12.14</version>
         </dependency>
+
 
 
     </dependencies>

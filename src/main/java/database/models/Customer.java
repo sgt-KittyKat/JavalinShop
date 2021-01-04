@@ -1,5 +1,6 @@
 package database.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.j256.ormlite.field.DataType;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
@@ -27,7 +28,7 @@ public class Customer extends User{
     private String phoneNumber;
     @DatabaseField
     private String token;
-    @DatabaseField(dataType = DataType.SERIALIZABLE)
+    @DatabaseField(dataType = DataType.SERIALIZABLE)@JsonIgnore
     private LocalDate tokenExpireTime;
 
     public Customer() {
@@ -106,7 +107,7 @@ public class Customer extends User{
         this.token = token;
     }
 
-    public void saveChanges(Customer updated) {
+    public void saveChanges(Customer updated) { //applyPartialChange
         if (updated.email != null && !updated.email.equals(this.email)) {
             this.email = updated.email;
         }

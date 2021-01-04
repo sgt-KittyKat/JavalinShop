@@ -1,4 +1,4 @@
 package service;
 
-public interface Service <Temp> {
+public interface Service {
 }
