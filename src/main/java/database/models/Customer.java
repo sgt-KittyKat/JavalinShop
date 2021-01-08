@@ -66,7 +66,7 @@ public class Customer extends User{
     public void setLogin(String login) {
         this.login = login;
     }
-
+    @JsonIgnore
     public String getPassword() {
         return password;
     }
@@ -107,29 +107,7 @@ public class Customer extends User{
         this.token = token;
     }
 
-    public void saveChanges(Customer updated) { //applyPartialChange
-        if (updated.email != null && !updated.email.equals(this.email)) {
-            this.email = updated.email;
-        }
-        if (updated.token != null && !updated.token.equals(this.token)) {
-            this.token = updated.token;
-        }
-        if (updated.name != null && !updated.name.equals(this.name)) {
-            this.name = updated.name;
-        }
-        if (updated.login != null && !updated.login.equals(this.login)) {
-            this.login = updated.login;
-        }
-        if (updated.surname != null && !updated.surname.equals(this.surname)) {
-            this.surname = updated.surname;
-        }
-        if (updated.password != null && !updated.password.equals(this.password)) {
-            this.password = updated.password;
-        }
-        if (updated.tokenExpireTime != null && !updated.tokenExpireTime.equals(this.tokenExpireTime)) {
-            this.tokenExpireTime = updated.tokenExpireTime;
-        }
-    }
+
 
     @Override
     public boolean equals(Object o) {

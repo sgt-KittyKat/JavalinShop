@@ -13,7 +13,7 @@ public class Product {
     private String name;
     @DatabaseField
     private String description;
-    @DatabaseField(foreign = true)
+    @DatabaseField(foreign = true, foreignAutoRefresh = true)
     private Employee creator;
     public Product() {
 

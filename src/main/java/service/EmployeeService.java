@@ -6,6 +6,7 @@ import com.google.i18n.phonenumbers.Phonenumber;
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.jdbc.spring.DaoFactory;
 import database.config.DatabaseConfig;
+import database.models.Customer;
 import database.models.Employee;
 import io.javalin.http.UnauthorizedResponse;
 import org.apache.commons.validator.routines.*;
@@ -122,5 +123,22 @@ public class EmployeeService implements UserService {
     }
     EmployeeService(Dao<Employee, Integer> dao) {
         this.dao = dao;
+    }
+    public void saveChanges(Employee target, Employee updated) { //applyPartialChange
+        if (updated.getEmail() != null && !updated.getEmail().equals(target.getEmail())) {
+            target.setEmail(updated.getEmail());
+        }
+        if (updated.getName() != null && !updated.getName().equals(target.getName())) {
+            target.setName(updated.getName());
+        }
+        if (updated.getLogin() != null && !updated.getLogin().equals(target.getLogin())) {
+            target.setLogin(updated.getLogin());
+        }
+        if (updated.getSurname() != null && !updated.getSurname().equals(target.getSurname())) {
+            target.setSurname(updated.getSurname());
+        }
+        if (updated.getPassword() != null && !updated.getPassword().equals(target.getPassword())) {
+            target.setPassword(updated.getPassword());
+        }
     }
 }

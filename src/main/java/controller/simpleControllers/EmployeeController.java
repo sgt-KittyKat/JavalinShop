@@ -48,7 +48,7 @@ public class EmployeeController implements Controller {
             Employee updated = om.readValue(context.body(), Employee.class);
             if (EmployeeCrudPermissions.updatePermits.contains(sender.getDepartment())
                     || target.equals(sender)) {
-                target.saveChanges(updated);
+                service.saveChanges(target, updated);
                 service.patch(target);
             }
             else {

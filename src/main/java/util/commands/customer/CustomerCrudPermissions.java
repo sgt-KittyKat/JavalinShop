@@ -2,11 +2,12 @@ package util.commands.customer;
 
 import database.models.Department;
 import io.javalin.core.security.Role;
+import util.commands.CrudPermissions;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class CustomerCrudPermissions {
+public class CustomerCrudPermissions implements CrudPermissions {
     public static final Set<Role> readPermits = new HashSet<>();
     public static final Set<Role> deletePermits = new HashSet<>();
     public static final Set<Role> updatePermits = new HashSet<>();

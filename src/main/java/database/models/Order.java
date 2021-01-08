@@ -9,9 +9,9 @@ import java.util.Objects;
 public class Order {
     @DatabaseField(generatedId = true)
     private Integer id;
-    @DatabaseField(foreign = true)
+    @DatabaseField(foreign = true, foreignAutoRefresh = true)
     private Customer customer;
-    @DatabaseField(foreign = true)
+    @DatabaseField(foreign = true, foreignAutoRefresh = true)
     private Product product;
     @DatabaseField
     private String date;

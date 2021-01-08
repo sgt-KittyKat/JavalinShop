@@ -127,4 +127,21 @@ public class CustomerService implements UserService {
         }
         return true;
     }
+    public void saveChanges(Customer target, Customer updated) { //applyPartialChange
+        if (updated.getEmail() != null && !updated.getEmail().equals(target.getEmail())) {
+            target.setEmail(updated.getEmail());
+        }
+        if (updated.getName() != null && !updated.getName().equals(target.getName())) {
+            target.setName(updated.getName());
+        }
+        if (updated.getLogin() != null && !updated.getLogin().equals(target.getLogin())) {
+            target.setLogin(updated.getLogin());
+        }
+        if (updated.getSurname() != null && !updated.getSurname().equals(target.getSurname())) {
+            target.setSurname(updated.getSurname());
+        }
+        if (updated.getPassword() != null && !updated.getPassword().equals(target.getPassword())) {
+            target.setPassword(updated.getPassword());
+        }
+    }
 }

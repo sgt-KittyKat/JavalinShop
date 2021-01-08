@@ -14,7 +14,7 @@ import service.OrderService;
 import service.ProductService;
 
 import static io.javalin.apibuilder.ApiBuilder.*;
-//remove password, merge perms commands, token endpoint, deserializer/serializer, remove token control over yourself.
+//*remove password*, 'merge perms commands', *token endpoint*, deserializer/serializer, *remove token control over yourself*.
 public class Main {
     public static void main(String[] args) {
 

@@ -44,6 +44,8 @@ public class CustomerController implements Controller {
             User sender = findSender(context);
             Customer created = om.readValue(context.body(), Customer.class);
             if (sender == null || CustomerCrudPermissions.readPermits.contains(sender.getDepartment())) {
+                if (!service.validateEmail(created.getEmail())) throw new UnauthorizedResponse("Invalid email");
+                if (!service.validateNumber(created.getPhoneNumber())) throw new UnauthorizedResponse("Invalid phone number");
                 service.post(created);
             } else {
                 throw new ForbiddenResponse();
@@ -62,7 +64,7 @@ public class CustomerController implements Controller {
                 throw new ForbiddenResponse();
             }
             if (CustomerCrudPermissions.updatePermits.contains(sender) || sender.equals(target)) {
-                target.saveChanges(updated);
+                service.saveChanges(target, updated);
                 service.patch(target);
             }
             else {
