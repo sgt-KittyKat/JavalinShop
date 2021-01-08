@@ -104,9 +104,6 @@ public class EmployeeService implements UserService {
     }
 
     public void patch(Employee target) throws SQLException {
-        if (!target.getPassword().equals(get(target.getId()).getPassword())) {
-            target.setPassword(BCrypt.hashpw(target.getPassword(), BCrypt.gensalt()));
-        }
         dao.update(target);
     }
 
@@ -137,8 +134,8 @@ public class EmployeeService implements UserService {
         if (updated.getSurname() != null && !updated.getSurname().equals(target.getSurname())) {
             target.setSurname(updated.getSurname());
         }
-        if (updated.getPassword() != null && !updated.getPassword().equals(target.getPassword())) {
-            target.setPassword(updated.getPassword());
+        if (updated.getPassword() != null && !BCrypt.checkpw(updated.getPassword(),target.getPassword())) {
+            target.setPassword(BCrypt.hashpw(updated.getPassword(), BCrypt.gensalt()));
         }
     }
 }

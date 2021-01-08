@@ -3,19 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="18412186-9034-422f-ace7-2f018f9ccc12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/simpleControllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/simpleControllers/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/simpleControllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/simpleControllers/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/database/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/models/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/database/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/models/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/models/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/commands/customer/CustomerCrudPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/commands/customer/CustomerCrudPermissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/commands/employee/EmployeeCrudPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/commands/employee/EmployeeCrudPermissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/commands/order/OrderCrudPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/commands/order/OrderCrudPermissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/commands/product/ProductCrudPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/commands/product/ProductCrudPermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/commands/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/commands/CrudPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/commands/CrudPermissions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,26 +92,26 @@
       <screen x="0" y="0" width="1205" height="720" />
     </state>
     <state x="383" y="116" key="FileChooserDialogImpl/0.0.1205.720@0.0.1205.720" timestamp="1608277744333" />
-    <state width="1205" height="136" key="GridCell.Tab.0.bottom" timestamp="1610108142933">
+    <state width="1205" height="136" key="GridCell.Tab.0.bottom" timestamp="1610111960018">
       <screen x="0" y="0" width="1205" height="720" />
     </state>
     <state width="1193" height="191" key="GridCell.Tab.0.bottom/0.0.1193.720@0.0.1193.720" timestamp="1607482843510" />
-    <state width="1205" height="136" key="GridCell.Tab.0.bottom/0.0.1205.720@0.0.1205.720" timestamp="1610108142933" />
-    <state width="1205" height="136" key="GridCell.Tab.0.center" timestamp="1610108142932">
+    <state width="1205" height="136" key="GridCell.Tab.0.bottom/0.0.1205.720@0.0.1205.720" timestamp="1610111960018" />
+    <state width="1205" height="136" key="GridCell.Tab.0.center" timestamp="1610111960018">
       <screen x="0" y="0" width="1205" height="720" />
     </state>
     <state width="1193" height="191" key="GridCell.Tab.0.center/0.0.1193.720@0.0.1193.720" timestamp="1607482843510" />
-    <state width="1205" height="136" key="GridCell.Tab.0.center/0.0.1205.720@0.0.1205.720" timestamp="1610108142932" />
-    <state width="1205" height="136" key="GridCell.Tab.0.left" timestamp="1610108142932">
+    <state width="1205" height="136" key="GridCell.Tab.0.center/0.0.1205.720@0.0.1205.720" timestamp="1610111960018" />
+    <state width="1205" height="136" key="GridCell.Tab.0.left" timestamp="1610111960017">
       <screen x="0" y="0" width="1205" height="720" />
     </state>
     <state width="1193" height="191" key="GridCell.Tab.0.left/0.0.1193.720@0.0.1193.720" timestamp="1607482843510" />
-    <state width="1205" height="136" key="GridCell.Tab.0.left/0.0.1205.720@0.0.1205.720" timestamp="1610108142932" />
-    <state width="1205" height="136" key="GridCell.Tab.0.right" timestamp="1610108142933">
+    <state width="1205" height="136" key="GridCell.Tab.0.left/0.0.1205.720@0.0.1205.720" timestamp="1610111960017" />
+    <state width="1205" height="136" key="GridCell.Tab.0.right" timestamp="1610111960018">
       <screen x="0" y="0" width="1205" height="720" />
     </state>
     <state width="1193" height="191" key="GridCell.Tab.0.right/0.0.1193.720@0.0.1193.720" timestamp="1607482843510" />
-    <state width="1205" height="136" key="GridCell.Tab.0.right/0.0.1205.720@0.0.1205.720" timestamp="1610108142933" />
+    <state width="1205" height="136" key="GridCell.Tab.0.right/0.0.1205.720@0.0.1205.720" timestamp="1610111960018" />
     <state width="1205" height="237" key="GridCell.Tab.1.bottom" timestamp="1607915162611">
       <screen x="0" y="0" width="1205" height="720" />
     </state>
@@ -149,15 +141,15 @@
       <screen x="0" y="0" width="1205" height="720" />
     </state>
     <state x="381" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1205.720@0.0.1205.720" timestamp="1609158192185" />
-    <state x="256" y="161" width="679" height="677" key="run.anything.popup" timestamp="1610108255143">
+    <state x="256" y="161" width="679" height="677" key="run.anything.popup" timestamp="1610112371528">
       <screen x="0" y="0" width="1205" height="720" />
     </state>
     <state x="253" y="161" width="672" height="677" key="run.anything.popup/0.0.1193.720@0.0.1193.720" timestamp="1607349480048" />
-    <state x="256" y="161" width="679" height="677" key="run.anything.popup/0.0.1205.720@0.0.1205.720" timestamp="1610108255143" />
-    <state x="262" y="41" width="679" height="678" key="search.everywhere.popup" timestamp="1610097027535">
+    <state x="256" y="161" width="679" height="677" key="run.anything.popup/0.0.1205.720@0.0.1205.720" timestamp="1610112371528" />
+    <state x="262" y="41" width="679" height="678" key="search.everywhere.popup" timestamp="1610111889173">
       <screen x="0" y="0" width="1205" height="720" />
     </state>
     <state x="259" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1193.720@0.0.1193.720" timestamp="1607349396375" />
-    <state x="262" y="41" width="679" height="678" key="search.everywhere.popup/0.0.1205.720@0.0.1205.720" timestamp="1610097027535" />
+    <state x="262" y="41" width="679" height="678" key="search.everywhere.popup/0.0.1205.720@0.0.1205.720" timestamp="1610111889173" />
   </component>
 </project>

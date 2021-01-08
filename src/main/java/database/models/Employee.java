@@ -1,6 +1,7 @@
 package database.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.j256.ormlite.field.DataType;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
@@ -78,7 +79,7 @@ public class Employee extends User {
     public String getPassword() {
         return password;
     }
-
+    @JsonDeserialize
     public void setPassword(String password) {
         this.password = password;
     }
